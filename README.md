@@ -1,2 +1,0 @@
-# dnschecker
-API from scratch
