@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'DcIpchk',
   data() {
@@ -32,9 +33,9 @@ export default {
   methods: {
     getipData() {
       fetch("test.json")
-          .then(response => response.json())
-          .then(data => (this.ipDataList = data));
+      axios.get("http://api.db-ip.com/v2/free/68.66.242.172").then(response => (this.ipDataList = response.data));
     }
+
   }
 };
 </script>
