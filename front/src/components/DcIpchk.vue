@@ -1,7 +1,15 @@
 <template>
   <div>
     <h1>DC Ip Checker</h1>
-    <button v-on:click="getipData">IP DC CHECK</button>
+    <div id="ip">
+        <p>
+          <input type="text" v-model="msg">
+          {{msg}}
+      <button v-on:click="getipData">IP DC CHECK</button>
+        </p>
+      </div>
+
+
     <div v-for="ipData in ipDataList" :key="ipData.id" class="weather-data">
       <div class="ipAddress">
         <div>
@@ -27,14 +35,17 @@ export default {
   name: 'DcIpchk',
   data() {
     return {
-      ipDataList: []
+      ipDataList: [],
+      msg: null,
     };
   },
   methods: {
     getipData() {
-      fetch("test.json")
-      axios.get("http://api.db-ip.com/v2/free/68.66.242.172").then(response => (this.ipDataList = response.data));
-    }
+      axios.get("http://api.db-ip.com/v2/free/"+this.msg
+      ).then(response => (this.ipDataList = response.data));
+      console.log(this.ipDataList)
+
+    },
 
   }
 };

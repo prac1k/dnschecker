@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3fcec85e-8424-41d2-ae5c-911ca0c79d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/DcIpchk.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/DcIpchk.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,8 @@
       <workItem from="1612224583915" duration="2745000" />
       <workItem from="1612227371915" duration="10047000" />
       <workItem from="1612274289194" duration="7511000" />
-      <workItem from="1612281942178" duration="8113000" />
+      <workItem from="1612281942178" duration="9071000" />
+      <workItem from="1612304637581" duration="7152000" />
     </task>
     <servers />
   </component>
