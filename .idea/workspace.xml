@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fcec85e-8424-41d2-ae5c-911ca0c79d74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/services/DnspropagationService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGE_LOG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGE_LOG.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/NavBarIP.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/NavBarIP.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/DnsPropagation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/DnsPropagation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -56,7 +58,8 @@
       <workItem from="1612281942178" duration="9071000" />
       <workItem from="1612304637581" duration="15747000" />
       <workItem from="1612365032587" duration="10972000" />
-      <workItem from="1612440565052" duration="6480000" />
+      <workItem from="1612440565052" duration="7567000" />
+      <workItem from="1612866436343" duration="4706000" />
     </task>
     <servers />
   </component>

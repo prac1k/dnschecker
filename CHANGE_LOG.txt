@@ -1,10 +1,11 @@
 ```Change Log```
 * Added IP geolocation tool, using http://ip-api.com/json/ API
 * Added What's My tool
-* Working on Nav bar
+* Added navbar and routing
+* Working on NodeJS and DNS checker
 
 API used:
-
 http://ip-api.com/json/
 
 UI:
+none (yet)
