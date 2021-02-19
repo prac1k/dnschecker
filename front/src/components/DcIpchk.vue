@@ -20,8 +20,8 @@
   <div class="whatsmyip">
     <h1>What's my Ip</h1>
     <div>
-      <p>
-        <button v-on:click="getMyIpData">Check my IP!</button>
+      <p>heck my IP!<
+          <button v-on:click="getMyIpData">C/button>
       </p>
     </div>
     <div v-for="myIpData in myIpDataList" :key="myIpData.id">
